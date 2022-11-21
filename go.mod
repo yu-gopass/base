@@ -5,8 +5,10 @@ go 1.18
 require (
 	github.com/asim/go-micro/plugins/registry/consul/v3 v3.7.0
 	github.com/asim/go-micro/v3 v3.7.1
+	github.com/go-sql-driver/mysql v1.5.0
+	github.com/jinzhu/gorm v1.9.16
 	github.com/micro/micro/v3 v3.15.0
-	github.com/yu-gopass/common v0.0.0-20221121073212-b3458be6a32d
+	github.com/yu-gopass/common v0.0.0-20221121113342-38b1d04f82cd
 	google.golang.org/protobuf v1.28.1
 )
 
@@ -35,6 +37,7 @@ require (
 	github.com/hashicorp/serf v0.9.5 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/kevinburke/ssh_config v0.0.0-20201106050909-4977a11b4351 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
