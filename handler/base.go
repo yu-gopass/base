@@ -5,7 +5,7 @@ import (
 
 	log "github.com/micro/micro/v3/service/logger"
 
-	pb "github.com/yu-gopass/base/proto/base"
+	pb "github.com/yu-gopass/base/proto"
 )
 
 type Base struct{}

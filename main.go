@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/asim/go-micro/v3"
 	"github.com/yu-gopass/base/handler"
-	base "github.com/yu-gopass/base/proto/base"
+	base "github.com/yu-gopass/base/proto"
 	"github.com/yu-gopass/common"
 
 	"github.com/asim/go-micro/plugins/registry/consul/v3"
