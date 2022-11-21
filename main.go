@@ -7,9 +7,9 @@ import (
 	base "github.com/yu-gopass/base/proto/base"
 	"github.com/yu-gopass/common"
 
-	"github.com/micro/micro/v3/service/logger"
-	"github.com/asim/go-micro/v3/registry"
 	"github.com/asim/go-micro/plugins/registry/consul/v3"
+	"github.com/asim/go-micro/v3/registry"
+	"github.com/micro/micro/v3/service/logger"
 )
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 	service.Init()
 
 	// 注册句柄，可以快速操作已开发的服务
-	base.RegisterBaseHandler(service.Server(),new(handler.base))
+	base.RegisterBaseHandler(service.Server(), new(handler.Base))
 
 	// 运行服务
 	if err := service.Run(); err != nil {
