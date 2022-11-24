@@ -1,0 +1,7 @@
+{"level":"info","ts":"2022-11-23T17:04:36.727+0800","caller":"base/main.go:75","msg":"添加日志系统！"}
+{"level":"info","ts":"2022-11-23T17:05:11.971+0800","caller":"base/main.go:44","msg":"连接mysql 成功"}
+{"level":"info","ts":"2022-11-23T17:05:12.165+0800","caller":"base/main.go:74","msg":"添加日志系统！"}
+{"level":"info","ts":"2022-11-24T19:19:44.374+0800","caller":"base/main.go:43","msg":"连接mysql 成功"}
+{"level":"info","ts":"2022-11-24T19:19:44.959+0800","caller":"base/main.go:73","msg":"添加日志系统！"}
+{"level":"info","ts":"2022-11-24T19:21:21.964+0800","caller":"base/main.go:43","msg":"连接mysql 成功"}
+{"level":"info","ts":"2022-11-24T19:21:22.672+0800","caller":"base/main.go:73","msg":"添加日志系统！"}

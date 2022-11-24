@@ -1,0 +1,40 @@
+2022-11-23T17:13:46.368+0800	INFO	instance/beat.go:640	Home path: [D:\Desktop\go\go-path\src\gopass\base] Config path: [D:\Desktop\go\go-path\src\gopass\base] Data path: [D:\Desktop\go\go-path\src\gopass\base\data] Logs path: [D:\Desktop\go\go-path\src\gopass\base\logs]
+2022-11-23T17:13:46.374+0800	INFO	instance/beat.go:648	Beat ID: ac497147-140b-49fc-9ce9-832b7d61ecdb
+2022-11-23T17:13:46.375+0800	INFO	[beat]	instance/beat.go:976	Beat info	{"system_info": {"beat": {"path": {"config": "D:\\Desktop\\go\\go-path\\src\\gopass\\base", "data": "D:\\Desktop\\go\\go-path\\src\\gopass\\base\\data", "home": "D:\\Desktop\\go\\go-path\\src\\gopass\\base", "logs": "D:\\Desktop\\go\\go-path\\src\\gopass\\base\\logs"}, "type": "filebeat", "uuid": "ac497147-140b-49fc-9ce9-832b7d61ecdb"}}}
+2022-11-23T17:13:46.375+0800	INFO	[beat]	instance/beat.go:985	Build info	{"system_info": {"build": {"commit": "7aab6a9659749802201db8020c4f04b74cec2169", "libbeat": "7.9.3", "time": "2020-10-16T09:16:15.000Z", "version": "7.9.3"}}}
+2022-11-23T17:13:46.376+0800	INFO	[beat]	instance/beat.go:988	Go runtime info	{"system_info": {"go": {"os":"windows","arch":"amd64","max_procs":4,"version":"go1.14.7"}}}
+2022-11-23T17:13:46.496+0800	INFO	[beat]	instance/beat.go:992	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2022-11-23T09:57:31.25+08:00","name":"DESKTOP-FKD7SCC","ip":["fe80::ede5:4021:48fc:f3c9/64","2.0.0.1/24","fe80::3cb2:3d46:af30:c5ed/64","192.168.6.219/24","fe80::a406:a440:483:41fd/64","169.254.180.140/16","192.168.21.130/25","fe80::c1ce:67c9:bc76:641/64","169.254.201.106/16","fe80::7fe5:e1ce:415c:5c5f/64","192.168.56.1/24","fe80::7312:b6ad:5405:7e66/64","169.254.240.1/16","fe80::1584:7474:d9a8:d01b/64","169.254.191.148/16","::1/128","127.0.0.1/8"],"kernel_version":"10.0.19041.2251 (WinBuild.160101.0800)","mac":["00:ff:fd:14:ba:6f","40:8d:5c:cd:a2:de","02:50:f2:00:00:02","00:ff:e4:89:de:51","0a:00:27:00:00:0d","00:ff:bb:b4:11:32","00:ff:c9:bb:12:53"],"os":{"family":"windows","platform":"windows","name":"Windows 10 Pro","version":"10.0","major":10,"minor":0,"patch":0,"build":"19044.2251"},"timezone":"CST","timezone_offset_sec":28800,"id":"9c77c05a-b625-46f1-b296-a0cc10e482d2"}}}
+2022-11-23T17:13:46.496+0800	INFO	[beat]	instance/beat.go:1021	Process info	{"system_info": {"process": {"cwd": "D:\\Desktop\\go\\go-path\\src\\gopass\\base", "exe": "D:\\Desktop\\go\\go-path\\bin\\filebeat.exe", "name": "filebeat.exe", "pid": 13848, "ppid": 12524, "start_time": "2022-11-23T17:13:45.876+0800"}}}
+2022-11-23T17:13:46.496+0800	INFO	instance/beat.go:299	Setup Beat: filebeat; Version: 7.9.3
+2022-11-23T17:13:46.497+0800	INFO	[publisher]	pipeline/module.go:113	Beat name: DESKTOP-FKD7SCC
+2022-11-23T17:13:46.497+0800	ERROR	fileset/modules.go:127	Not loading modules. Module directory not found: D:\Desktop\go\go-path\src\gopass\base\module
+2022-11-23T17:13:46.497+0800	WARN	beater/filebeat.go:178	Filebeat is unable to load the Ingest Node pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the Ingest Node pipelines or are using Logstash pipelines, you can ignore this warning.
+2022-11-23T17:13:46.497+0800	INFO	instance/beat.go:450	filebeat start running.
+2022-11-23T17:13:46.498+0800	INFO	[monitoring]	log/log.go:118	Starting metrics logging every 30s
+2022-11-23T17:13:46.507+0800	INFO	memlog/store.go:119	Loading data file of 'D:\Desktop\go\go-path\src\gopass\base\data\registry\filebeat' succeeded. Active transaction id=0
+2022-11-23T17:13:46.507+0800	INFO	memlog/store.go:124	Finished loading transaction log file for 'D:\Desktop\go\go-path\src\gopass\base\data\registry\filebeat'. Active transaction id=0
+2022-11-23T17:13:46.508+0800	WARN	beater/filebeat.go:381	Filebeat is unable to load the Ingest Node pipelines for the configured modules because the Elasticsearch output is not configured/enabled. If you have already loaded the Ingest Node pipelines or are using Logstash pipelines, you can ignore this warning.
+2022-11-23T17:13:46.508+0800	INFO	[registrar]	registrar/registrar.go:109	States Loaded from registrar: 0
+2022-11-23T17:13:46.509+0800	INFO	[crawler]	beater/crawler.go:71	Loading Inputs: 1
+2022-11-23T17:13:46.509+0800	INFO	log/input.go:157	Configured paths: [D:\Desktop\go\go-path\src\gopass\base\*.log]
+2022-11-23T17:13:46.509+0800	INFO	[crawler]	beater/crawler.go:141	Starting input (ID: 9579789163401830746)
+2022-11-23T17:13:46.509+0800	INFO	[crawler]	beater/crawler.go:108	Loading and starting Inputs completed. Enabled inputs: 1
+2022-11-23T17:13:46.510+0800	INFO	log/harvester.go:299	Harvester started for file: D:\Desktop\go\go-path\src\gopass\base\micro.log
+2022-11-23T17:13:47.524+0800	INFO	[publisher_pipeline_output]	pipeline/output.go:143	Connecting to backoff(async(tcp://192.168.3.180:5044))
+2022-11-23T17:13:47.526+0800	INFO	[publisher]	pipeline/retry.go:219	retryer: send unwait signal to consumer
+2022-11-23T17:13:47.526+0800	INFO	[publisher]	pipeline/retry.go:223	  done
+2022-11-23T17:13:47.545+0800	INFO	[publisher_pipeline_output]	pipeline/output.go:151	Connection to backoff(async(tcp://192.168.3.180:5044)) established
+2022-11-23T17:13:49.338+0800	INFO	beater/filebeat.go:515	Stopping filebeat
+2022-11-23T17:13:49.338+0800	INFO	beater/crawler.go:148	Stopping Crawler
+2022-11-23T17:13:49.338+0800	INFO	beater/crawler.go:158	Stopping 1 inputs
+2022-11-23T17:13:49.338+0800	INFO	[crawler]	beater/crawler.go:163	Stopping input: 9579789163401830746
+2022-11-23T17:13:49.338+0800	INFO	input/input.go:136	input ticker stopped
+2022-11-23T17:13:49.338+0800	INFO	log/harvester.go:326	Reader was closed: D:\Desktop\go\go-path\src\gopass\base\micro.log. Closing.
+2022-11-23T17:13:49.338+0800	INFO	beater/crawler.go:178	Crawler stopped
+2022-11-23T17:13:49.338+0800	INFO	[registrar]	registrar/registrar.go:132	Stopping Registrar
+2022-11-23T17:13:49.339+0800	INFO	[registrar]	registrar/registrar.go:166	Ending Registrar
+2022-11-23T17:13:49.339+0800	INFO	[registrar]	registrar/registrar.go:137	Registrar stopped
+2022-11-23T17:13:49.341+0800	INFO	[monitoring]	log/log.go:153	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"cpu":{"system":{"ticks":140,"time":{"ms":140}},"total":{"ticks":218,"time":{"ms":218},"value":218},"user":{"ticks":78,"time":{"ms":78}}},"handles":{"open":205},"info":{"ephemeral_id":"1619fe9a-70ca-4463-b087-0eae71999f9f","uptime":{"ms":3073}},"memstats":{"gc_next":18982016,"memory_alloc":9515512,"memory_total":37268000,"rss":47951872},"runtime":{"goroutines":14}},"filebeat":{"events":{"added":4,"done":4},"harvester":{"closed":1,"open_files":0,"running":0,"started":1}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":3,"batches":1,"total":3},"read":{"bytes":6},"type":"logstash","write":{"bytes":570}},"pipeline":{"clients":0,"events":{"active":0,"filtered":1,"published":3,"retry":3,"total":4},"queue":{"acked":3}}},"registrar":{"states":{"current":1,"update":4},"writes":{"success":2,"total":2}},"system":{"cpu":{"cores":4}}}}}
+2022-11-23T17:13:49.342+0800	INFO	[monitoring]	log/log.go:154	Uptime: 3.0751485s
+2022-11-23T17:13:49.342+0800	INFO	[monitoring]	log/log.go:131	Stopping metrics logging.
+2022-11-23T17:13:49.342+0800	INFO	instance/beat.go:456	filebeat stopped.

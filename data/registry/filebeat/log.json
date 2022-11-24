@@ -1,0 +1,6 @@
+{"op":"set","id":1}
+{"k":"filebeat::logs::native::2359296-368010-4239253748","v":{"id":"native::2359296-368010-4239253748","source":"D:\\Desktop\\go\\go-path\\src\\gopass\\base\\micro.log","offset":0,"timestamp":[2062094862280,1669194826],"ttl":-1,"type":"log","prev_id":"","FileStateOS":{"idxhi":2359296,"idxlo":368010,"vol":4239253748},"identifier_name":"native"}}
+{"op":"set","id":2}
+{"k":"filebeat::logs::native::2359296-368010-4239253748","v":{"id":"native::2359296-368010-4239253748","FileStateOS":{"idxhi":2359296,"idxlo":368010,"vol":4239253748},"identifier_name":"native","timestamp":[2062321804080,1669194828],"ttl":-1,"type":"log","prev_id":"","source":"D:\\Desktop\\go\\go-path\\src\\gopass\\base\\micro.log","offset":327}}
+{"op":"set","id":3}
+{"k":"filebeat::logs::native::2359296-368010-4239253748","v":{"prev_id":"","ttl":-1,"type":"log","id":"native::2359296-368010-4239253748","offset":327,"timestamp":[2062321804080,1669194828],"FileStateOS":{"idxhi":2359296,"idxlo":368010,"vol":4239253748},"identifier_name":"native","source":"D:\\Desktop\\go\\go-path\\src\\gopass\\base\\micro.log"}}
