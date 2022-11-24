@@ -2,3 +2,4 @@
 base
 .idea/
 .idea
+*.log
